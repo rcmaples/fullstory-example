@@ -1,0 +1,25 @@
+{
+  "name": "@williamhill/rosi-ui-kiosk",
+  "version": "0.1.0",
+  "private": true,
+  "config-overrides-path": "../config-overrides",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "wh-test",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint:css": "stylelint './src/**/*.tsx'"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

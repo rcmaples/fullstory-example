@@ -1,0 +1,65 @@
+/*
+
+The Typekit service used to deliver this font or fonts for use on websites
+is provided by Adobe and is subject to these Terms of Use
+http://www.adobe.com/products/eulas/tou_typekit. For font license
+information, see the list below.
+*
+proxima-nova-condensed:
+- http://typekit.com/eulas/00000000000000007735954c
+- http://typekit.com/eulas/000000000000000077359555
+- http://typekit.com/eulas/00000000000000007735956b
+- http://typekit.com/eulas/000000000000000077359570
+- http://typekit.com/eulas/00000000000000007735957b
+- http://typekit.com/eulas/000000000000000077359582
+*
+© 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+*/
+/* {"last_published":"2021-01-09 00:03:46 UTC"}
+*/
+@font-face {
+  font-family: 'proxima-nova-condensed';
+  src: url('./assets/web-fonts/proxima-nova-condensed/proxima-nova-light.otf') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'proxima-nova-condensed';
+  src: url('./assets/web-fonts/proxima-nova-condensed/proxima-nova-regular.otf') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'proxima-nova-condensed';
+  src: url('./assets/web-fonts/proxima-nova-condensed/proxima-nova-semibold.otf') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'proxima-nova-condensed';
+  src: url('./assets/web-fonts/proxima-nova-condensed/proxima-nova-bold.otf') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'proxima-nova-condensed';
+  src: url('./assets/web-fonts/proxima-nova-condensed/proxima-nova-bold.otf') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'proxima-nova-condensed';
+  src: url('./assets/web-fonts/proxima-nova-condensed/proxima-nova-bold.otf') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.tk-proxima-nova-condensed {
+  font-family: 'proxima-nova-condensed', sans-serif;
+}
